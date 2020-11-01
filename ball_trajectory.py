@@ -35,7 +35,7 @@ def ode(Y,T):
 # __________________________________ DATA _______________________________________
 
 # Open measurement file into a dataframe with pandas ____________________________
-measurements = pd.read_csv("DAVIDECHIARA.csv")
+measurements = pd.read_csv("OUTPUT.csv")
 
 # Calculate scale factor to transfrom [pixel] to [m] ____________________________
 reference_pixel = (23.25+23.49)/2                   # [pixel]
