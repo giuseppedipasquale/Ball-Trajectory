@@ -11,4 +11,6 @@ The project is composed by the following phases:
 Each phase can be used to showcase/teach a different theoretical and practical concept. The in-depth level of the concepts can be tailored to the target education and knowledge. </br>
 For example, the simulation phase can be presented as a magic tool that predicts the future for the youngest, or can be explained much more in depth to more advanced students, showing a practical example of equation of motion numerical integration, more or less complex models for gravity and drag. </br>
 
-
+![pic1_0](https://user-images.githubusercontent.com/63881945/97815162-835f6b80-1c8c-11eb-99d7-018cd3a13ae0.PNG)
+![pic1_1](https://user-images.githubusercontent.com/63881945/97815133-527f3680-1c8c-11eb-8a4d-51b8b8831806.PNG)
+![pic1_2](https://user-images.githubusercontent.com/63881945/97815155-7773a980-1c8c-11eb-8bee-ab94691746bc.PNG)
