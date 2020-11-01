@@ -9,4 +9,6 @@ The project is composed by the following phases:
 1. *Comparison and conclusions*: consists in comparing the trajectory obtained from the experiments and the simulations and drawing the relevant conclusions.
 <a/>
 Each phase can be used to showcase/teach a different theoretical and practical concept. The in-depth level of the concepts can be tailored to the target education and knowledge. </br>
-For example, the simulation phase can be presented as a magic tool that predicts the future for the youngest, or can be explained much more in depth to more advanced students.
+For example, the simulation phase can be presented as a magic tool that predicts the future for the youngest, or can be explained much more in depth to more advanced students, showing a practical example of equation of motion numerical integration, more or less complex models for gravity and drag. </br>
+
+
