@@ -3,11 +3,9 @@ This project, as the name clearly states, is the study of a ball trajectory. In 
 The idea behind this project is to have a fun and not-too-complex physics problem that can be explored using technology. <br/>
 The endgoal is to engage with students, kids, nephews or whoever is enthusiast about STEM (in my case it was my younger cousins), and introduce them to the wonders of physics, engineering and technology in a practical and results-oriented approach. <br/>
 The project consists in the following phases:
-1. *Experimental phase*
-1. *Processing with Blender*
-1. *Simulation with Python*
-1. *Comparison and conclusions*
-The *Experimental phase* consists in preparing the experimental setup, measuring the properties of the ball, performing the experiments (ball drop, throw, bounce) and recording with a camera. </br>
-The *Processing with Blender* phase consists in processing the camera recordings from the previous phase (tracking of the ball) and exporting the *x,y* coordinates into the OUTPUT.csv file. This is performed using the Python script inside the Blender environemnt. </br>
-The *Simulation with Python* phase consists in performing simulations of the ball trajectory, solving the ordinary differential equation system associated.</br>
-Finally, the *Comparison and conclusions* phase consists in comparing the trajectory obtained from the experiments and the simulations and drawing the relevant conclusions.</br>
+1. *Experimental phase*: consists in preparing the experimental setup, measuring the properties of the ball, performing the experiments (ball drop, throw, bounce) and recording with a camera.
+1. *Processing with Blender*: consists in processing the camera recordings from the previous phase (tracking of the ball) and exporting the *x,y* coordinates into the OUTPUT.csv file. This is performed using the Python script inside the Blender environemnt.
+1. *Simulation with Python*: consists in performing simulations of the ball trajectory, solving the ordinary differential equation system associated.
+1. *Comparison and conclusions*: consists in comparing the trajectory obtained from the experiments and the simulations and drawing the relevant conclusions.
+
+
