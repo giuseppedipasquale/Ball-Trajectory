@@ -3,6 +3,8 @@ from numpy.linalg import norm
 import pandas as pd
 from scipy.integrate import odeint
 import matplotlib.pyplot as plt
+from ball import Ball
+
 # _______________________________________________________________________________
 # _________________________________ CONSTANTS ___________________________________
 
@@ -17,6 +19,7 @@ d  = c/np.pi              # Ball diameter               [m]
 S  = np.pi*d**2/4         # Ball front area             [m^2]
 m  = 0.5                  # Ball mass                   [kg]
 Cd = 0.54                 # Drag coefficent
+basketball = Ball(m,d,Cd)
 # _______________________________________________________________________________
 # _________________________________ FUNCTIONS ___________________________________
 
@@ -27,8 +30,8 @@ def ode(Y,T):
     """
     x,y,u,v = Y
     V = norm([u,v])
-    Dx = -0.5*rho*S*Cd/m*V*u
-    Dy = -0.5*rho*S*Cd/m*V*v 
+    Dx = -0.5*rho*basketball.A*basketball.Cd/basketball.m*V*u
+    Dy = -0.5*rho*basketball.A*basketball.Cd/basketball.m*V*v 
     return [u, v, Dx, -g+Dy]
   
 # _______________________________________________________________________________
