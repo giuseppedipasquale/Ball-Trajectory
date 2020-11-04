@@ -9,6 +9,7 @@ class Ball:
         Constructor
         m: Mass of ball (kg)
         d: Diameter of ball (m)
+        Cd: Drag coefficient
         """
         self._m = m
         self._d = d
