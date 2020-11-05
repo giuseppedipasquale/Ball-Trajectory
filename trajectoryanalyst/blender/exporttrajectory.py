@@ -2,7 +2,7 @@ import bpy
 from __future__ import print_function
 
 DATA = bpy.data
-outputFolder= "OUTPUT.csv"
+outputFolder= "\\data\\OUTPUT.csv"
 
 for clip in DATA.movieclips:
     width=clip.size[0]
