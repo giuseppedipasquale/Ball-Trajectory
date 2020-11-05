@@ -32,6 +32,6 @@ class Ball:
         return self._A
         
     @property
-    def Cd(self):
+    def C_d(self):
         """Returns Cd, the drag coefficient of the ball"""
         return self._C_d
