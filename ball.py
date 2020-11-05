@@ -4,17 +4,17 @@ class Ball:
     """
     Class to represent a Ball
     """
-    def __init__(self, m, d, Cd):
+    def __init__(self, m, d, C_d):
         """
         Constructor
         m: Mass of ball (kg)
         d: Diameter of ball (m)
-        Cd: Drag coefficient
+        C_d: Drag coefficient
         """
         self._m = m
         self._d = d
         self._A = self._d**2/4*np.pi
-        self._Cd = Cd
+        self._C_d = C_d
 
     @property
     def m(self):
@@ -34,4 +34,4 @@ class Ball:
     @property
     def Cd(self):
         """Returns Cd, the drag coefficient of the ball"""
-        return self._Cd
+        return self._C_d
