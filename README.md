@@ -1,4 +1,4 @@
-# Ball-Trajectory
+# trajectoryanalyst
 This project, as the name clearly states, is the study of a ball trajectory. In particular, a basketball trajectory! <br/>
 The idea behind this project is to have a fun and not-too-complex physics problem that can be explored using technology. <br/>
 The end goal is to engage with students, kids, nephews or STEM enthusiasts in general (in my case it was my younger cousins), and introduce them to the wonders of physics, engineering and technology in a practical and results-oriented approach. <br/>
