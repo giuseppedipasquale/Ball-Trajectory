@@ -15,6 +15,11 @@ For example, if one considers only gravity in the simulation, the two trajectori
 But if the drag is also taken into account, the result is much closer.
 ![pic1_1](https://user-images.githubusercontent.com/63881945/97815133-527f3680-1c8c-11eb-8a4d-51b8b8831806.PNG)
 <a/>
+
+Another example is the pendulum. In the figure below it is possible to appreciate a plot of the measured angle with respect to the vertical against the simulation results.
+![pendulum1](https://user-images.githubusercontent.com/63881945/98943353-a2ad9280-24ef-11eb-93f2-9a8d761e0ccf.PNG)
+
+
 One thing that is very important, in my opinion, is to ask always before, what they expect is going to happen and make them do the work, get their hands dirty, get the wrong path and learn from it.
 Have fun!
 
